@@ -12,6 +12,7 @@ module.exports = {
     },
     useNullAsDefault: true,
   },
+  
 
   staging: {
     client: 'postgresql',
@@ -27,7 +28,7 @@ module.exports = {
     migrations: {
       tableName: 'knex_migrations'
     }
-  },
+    },
 
   production: {
     client: 'postgresql',
