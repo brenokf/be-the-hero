@@ -9,6 +9,10 @@
     justify-content: center; 
 }
 
+.register-container h1 {
+    color: rgba(60, 56, 113, 1);
+}
+
 .register-container .content {
     width: 100%;
     padding: 96px;

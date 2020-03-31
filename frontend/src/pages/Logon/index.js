@@ -6,7 +6,7 @@ import {FiLogIn} from 'react-icons/fi'
 
 import './styless.css';
 import logoImg from '../../assets/logo.svg';
-import heroesImg from '../../assets/heroes.png';
+import heroesImg from '../../assets/teamwork.png';
 
 
 export default function Logon(){
@@ -37,7 +37,7 @@ export default function Logon(){
 
 
                 <form onSubmit={handleLogin}>
-                    <h1>Faça seu Logon</h1>
+                    <h1>ID Startup</h1>
                         <input 
                         placeholder="Sua ID"
                         value={id}
@@ -45,7 +45,7 @@ export default function Logon(){
                         <button className="button" type="submit">Entrar</button>
 
                         <Link className="back-link" to="/register">
-                                <FiLogIn size={16} color = "#E02041"/>
+                                <FiLogIn size={16} color = "#3C3871"/>
                                 Não tenho cadastro
                         </Link>
                     
