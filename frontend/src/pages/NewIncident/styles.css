@@ -9,10 +9,14 @@
     justify-content: center; 
 }
 
+.new-incident-container h1{
+    color: #737380;
+}
+
 .new-incident-container .content {
     width: 100%;
     padding: 96px;
-    background: #f0f0f5;
+    background: #fff;
     box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
 

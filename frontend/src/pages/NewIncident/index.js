@@ -44,17 +44,17 @@ export default function NewIncident(){
                 <img src={logoImg} alt="Be The Hero"/>
 
                 <h1>Cadastrar novo caso</h1>
-                <p>Descreva o caso detalhadamente para encontrar um heroi para resolver isso.</p>
+                <p>Descreva o caso detalhadamente para encontrar pessoas ou empresas para ajudar no caso de sua ONG.</p>
 
                 <Link className="back-link" to="/profile">
-                <FiArrowLeft size={16} color = "#E02041"/>
+                <FiArrowLeft size={16} color = "#E10000"/>
                 Voltar para home
                 </Link>
             </section>
 
         <form onSubmit = {handleNewIncident}>
             <input  
-            placeholder="Titulo do caso"
+            placeholder="Titulo do Caso"
                 value={title}
                 onChange={e =>  setTitle(e.target.value)}
             />

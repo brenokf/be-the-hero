@@ -6,6 +6,10 @@
 
 }
 
+.profile-container h1{
+    color:'#737380';
+}
+
 .profile-container header {
     display: flex;
     align-items: center;
@@ -14,6 +18,7 @@
 .profile-container header span{
     font-size: 20px;
     margin-left: 24px;
+    color: rgb(187, 187, 187);
 }
 
 .profile-container header img {
@@ -29,13 +34,13 @@
     height: 60px;
     width: 60px;
     border-radius: 4px;
-    border: 1px solid #dcdce6;
+    border: 1px solid rgb(233, 233, 233);
     background: transparent;
     margin-left: 16px;
     transition: border-color 0.2s;
 }
 .profile-container header button:hover{
-    border-color: #999;
+    border-color: rgb(168, 168, 168);
 
 }
 .profile-container h1 {
@@ -51,7 +56,7 @@
 
 }
 .profile-container ul li {
-    background: #3C3871;
+    background: rgb(250, 250, 250);
     padding: 24px;
     border-radius: 8px;
     position: relative
@@ -72,14 +77,14 @@
 .profile-container ul li strong{
     display: block;
     margin-bottom: 16px;
-    color: #41414d;
+    color: rgb(151, 150, 150);
 }
 
 .profile-container ul li p + strong{
     margin-top: 32px;
 }
 .profile-container ul li p{
-    color: #737380;
+    color: #c0c0c0;
     line-height: 21px;
     font-size: 16px;
 }

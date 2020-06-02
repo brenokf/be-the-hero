@@ -49,20 +49,20 @@ async function handleDeleteIncident(id){
         <div className="profile-container">
             <header>
                 <img src={logoImg} alt="Be the Hero"/>
-                <span>Bem Vinda , {ongame}</span>
+                <span>Bem Vindo  {ongame}</span>
 
-                <Link className="button" to ="/incidents/new" >Cadastrar novo caso </Link>
+                <Link className="button" to ="/incidents/new" >Cadastrar novo projeto </Link>
                 <button onClick={handleLogout} type="button">
-                    <FiPower size={18} color="#e02041"/>
+                    <FiPower size={18} color="#E10000"/>
 
                 </button>
             </header>
-            <h1>Casos Cadastrados</h1>
+            <h1>Projetos Cadastrados</h1>
 
             <ul>
                 {incidents.map(incident =>(
                     <li key={incident.id}>
-                    <strong>CASO:</strong>
+                    <strong>PROJETO:</strong>
                 <p>{incident.title}</p>
 
                     <strong>DESCRIÇÃO:</strong>
