@@ -1,7 +1,10 @@
 # Be The Hero
 
-![](https://github.com/brenokf/be-the-hero/blob/master/mobile/assets/icon.png?raw=true)!
-![GitHub language count](https://img.shields.io/github/languages/count/brenokf/be-the-hero)![](https://img.shields.io/github/languages/top/brenokf/be-the-hero)![](https://img.shields.io/github/commit-activity/m/brenokf/be-the-hero)![](https://img.shields.io/github/last-commit/brenokf/be-the-hero)
+
+
+![](https://github.com/brenokf/be-the-hero/blob/master/mobile/assets/icon.png?raw=true)
+
+![](https://img.shields.io/github/languages/count/brenokf/be-the-hero)![](https://img.shields.io/github/languages/top/brenokf/be-the-hero)![](https://img.shields.io/github/commit-activity/m/brenokf/be-the-hero)![](https://img.shields.io/github/last-commit/brenokf/be-the-hero)
 
 
 O Be The Hero foi um projeto desenvolvido na semana Oministack 11 promovido pela RocketSeat
