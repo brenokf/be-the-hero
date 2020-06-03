@@ -29,6 +29,7 @@ form input{
     border: 1px solid;
     border-radius: 8px;
     padding: 0 24px;
+
 }
 
 form textarea{
@@ -36,7 +37,7 @@ form textarea{
     resize: vertical;
     min-height: 140px;
     height: 60px;
-    color: #757575;
+    color: #a1a1a1;
     border: 1px solid;
     border-radius: 8px;
     padding: 16px 24px;
