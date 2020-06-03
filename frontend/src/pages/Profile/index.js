@@ -57,12 +57,12 @@ async function handleDeleteIncident(id){
 
                 </button>
             </header>
-            <h1>Projetos Cadastrados</h1>
+            <h1>Casos Cadastrados</h1>
 
             <ul>
                 {incidents.map(incident =>(
                     <li key={incident.id}>
-                    <strong>PROJETO:</strong>
+                    <strong>CASO:</strong>
                 <p>{incident.title}</p>
 
                     <strong>DESCRIÇÃO:</strong>
