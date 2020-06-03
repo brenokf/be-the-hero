@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Brainstorm",
-    "slug": "brainstorm",
+    "name": "BeTheHero",
+    "slug": "BeTheHero",
     "privacy": "public",
     "platforms": [
       "ios",
@@ -14,7 +14,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#3C3871"
+      "backgroundColor": "#E02041"
     },
     "updates": {
       "fallbackToCacheTimeout": 0

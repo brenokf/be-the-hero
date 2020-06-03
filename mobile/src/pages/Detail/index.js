@@ -25,7 +25,7 @@ export default function Detail(){
 
     function sendMail(){
         MailComposer.composeAsync({
-            subject: `Investidor no projeto da Startup:${incident.title}` ,
+            subject: `Doador no caso da ONG:${incident.title}` ,
             recipients:[incident.email],
             body: message,
         })
@@ -48,10 +48,10 @@ return(
     </View>
     <View style={styles.incident}>
 
-    <Text style = {styles.incidentProperty,{marginTop: 0}}>Startup:</Text>
+    <Text style = {styles.incidentProperty,{marginTop: 0}}>ONG:</Text>
                         <Text style = {styles.incidentValue}>{incident.name} de {incident.city}/{incident.uf}:</Text>
 
-                        <Text style = {styles.incidentProperty}>Projeto:</Text>
+                        <Text style = {styles.incidentProperty}>Caso:</Text>
                         <Text style = {styles.incidentValue}>{incident.title}</Text>
 
                         <Text style = {styles.incidentProperty}>Valor:</Text>
@@ -62,8 +62,8 @@ return(
 
     </View>
         <View style={styles.contactBox}>
-        <Text style={styles.heroTitle}>Seja um Investidor da Startup!</Text>
-        <Text style={styles.heroTitle}>Invista neste Projeto. </Text>
+        <Text style={styles.heroTitle}>Seja um Herói da ONG</Text>
+        <Text style={styles.heroTitle}>Faça a Diferença</Text>
         <Text style={styles.heroDescription}>Entre em contato</Text>
 
         <View style={styles.actions}>

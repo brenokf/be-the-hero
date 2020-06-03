@@ -57,11 +57,11 @@ return(
     <View style = {styles.header}>
         <Image source = {logoImg}></Image>
         <Text style={styles.headerText}>
-        Total de <Text style={styles.headerTextBold}>{total} Projetos. </Text>
+        Total de <Text style={styles.headerTextBold}>{total} Casos. </Text>
         </Text>
     </View>
     <Text style= {styles.title}>Bem Vindo !</Text>
-    <Text style={styles.description}>Invista em um dos projetos abaixo: </Text>
+    <Text style={styles.description}>Doe em um dos casos abaixo: </Text>
 
 
     <FlatList
@@ -74,10 +74,10 @@ return(
             renderItem={({item:incident})=>(
                         <View style={styles.incidentsList}> 
                         <View style = {styles.incident}>
-                        <Text style = {styles.incidentProperty}>Startup:</Text>
+                        <Text style = {styles.incidentProperty}>ONG:</Text>
                         <Text style = {styles.incidentValue}>{incident.name}:</Text>
 
-                        <Text style = {styles.incidentProperty}>Projeto:</Text>
+                        <Text style = {styles.incidentProperty}>Caso:</Text>
                         <Text style = {styles.incidentValue}>{incident.title}</Text>
 
                         <Text style = {styles.incidentProperty}>Valor:</Text>
@@ -90,7 +90,7 @@ return(
                         style={styles.detailsButton} 
                         onPress = {() =>navigateToDetail(incident)}>
                             <Text style ={styles.detailsButtonText}>Ver mais detalhes</Text>   
-                            <Feather name = "arrow-right" size={16} color="#3C3871"/>
+                            <Feather name = "arrow-right" size={16} color="#A5A5A5"/>
                         </TouchableOpacity>
                     </View>
                 </View>

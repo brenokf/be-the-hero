@@ -7,7 +7,7 @@ export default StyleSheet.create({
         flex: 1,
         paddingHorizontal: 24,
         paddingTop: Constant.statusBarHeight + 20,
-        backgroundColor: '#3C3871',
+        backgroundColor: '#fff',
 
 
     },
@@ -22,14 +22,14 @@ export default StyleSheet.create({
     incident: {
         padding:24,
         borderRadius:8,
-        backgroundColor:'#C5C1F1',
+        backgroundColor:'#F2F2F2',
         marginBottom: 16,
         marginTop: 48,
     },
 
     incidentProperty: {
         fontSize:14,
-        color:'#41414d',
+        color:'#707070',
         fontWeight: 'bold',
         marginTop: 24,
     },
@@ -38,13 +38,13 @@ export default StyleSheet.create({
     incidentValue: {
         marginTop:8,
         fontSize:15,
-        color: '#737380'
+        color: '#818181'
     },
 
     contactBox:{
         padding:24,
         borderRadius:8,
-        backgroundColor:'#C5C1F1',
+        backgroundColor:'#E8E7E7',
         marginBottom: 16,
       
     },
@@ -52,13 +52,13 @@ export default StyleSheet.create({
     heroTitle: {
         fontWeight: 'bold',
         fontSize:20,
-        color:'#13131a',
+        color:'#8E8E8E',
         lineHeight: 30
     },
 
     heroDescription:  {
         fontSize: 15,
-        color: '#737380',
+        color: '#767676',
         marginTop: 16,
 
     },
@@ -70,7 +70,7 @@ export default StyleSheet.create({
     },
 
     action: {
-        backgroundColor: '#3C3871',
+        backgroundColor: '#E02041',
         borderRadius: 8,
         height: 50,
         width: '48%',
